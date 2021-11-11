@@ -1,6 +1,6 @@
 # evgabstonk
 
-CAUTION, using this incorrectly can very easily get you a temporary or permanent ban from EVGA!!!
+CAUTION, USING THIS INCORRECTLY CAN VERY EASILY GET YOU A TEMPORARY OR PERMANENT BAN FROM EVGA!!!
 
 Pre-Requisities:  Python and a working webdriver setup.  This was developed under Ubuntu 20.04  
 
