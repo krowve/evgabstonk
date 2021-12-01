@@ -6,7 +6,8 @@ Pre-Requisities:  Python and a working webdriver setup.  This was developed unde
 
 Recommended setup.
 
-Load a VM.  (make sure you enable and test sound support)
+Load a VM running Ubuntu.  (make sure you enable and test sound support)
+apt install firefoxdriver firefox-geckodriver
 Start a VPN service
 Run script.
 
