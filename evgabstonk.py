@@ -37,6 +37,7 @@ PRODUCTS.append("10G-P5-3897-RX")
 
 while (1):
     driver = webdriver.Firefox()
+    driver.set_window_size(960, 480)
     driver.get("https://www.evga.com/products/productlist.aspx?type=8")
     for PRODUCT in PRODUCTS:
         try:
