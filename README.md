@@ -4,10 +4,10 @@ CAUTION, USING THIS INCORRECTLY CAN VERY EASILY GET YOU A TEMPORARY OR PERMANENT
 
 Pre-Requisities:  Python and a working webdriver setup.  This was developed under Ubuntu 20.04  
 
-###
+##
 Recommended setup.
 
-###
+##
 Load a VM running Ubuntu.  (make sure you enable and test sound support)
 apt install firefoxdriver firefox-geckodriver
 Start a VPN service
