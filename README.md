@@ -4,14 +4,16 @@ CAUTION, USING THIS INCORRECTLY CAN VERY EASILY GET YOU A TEMPORARY OR PERMANENT
 
 Pre-Requisities:  Python and a working webdriver setup.  This was developed under Ubuntu 20.04  
 
-##
-Recommended setup.
+Recommended setup steps
 
-##
-Load a VM running Ubuntu.  (make sure you enable and test sound support)
-apt install firefoxdriver firefox-geckodriver
-Start a VPN service
-Run script.
+
+1. Load a VM running Ubuntu.  (make sure you enable and test sound support)
+
+2. sudo apt install firefoxdriver firefox-geckodriver
+
+3. Start a VPN service (I use surfshark)
+
+4. Run script:  ./evgabstonk.py
 
 The script will refresh the b stock web page with clean cookies and if the script finds a FHR 3060ti or 3070 it should play a sound file via a URL.  Should be easy to add more items by looking at the code.  Also should be easy to change the default refresh interval by looking at the code.
 
