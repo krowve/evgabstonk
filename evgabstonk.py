@@ -31,6 +31,14 @@ PRODUCTS.append("10G-P5-3885-RX")
 PRODUCTS.append("10G-P5-3895-RX")
 ## 3080 FTW3 Ultra Gaming
 PRODUCTS.append("10G-P5-3897-RX")
+## 3090 FTW3 Gaming
+PRODUCTS.append("24G-P5-3985-RX")
+## 3090 FTW3 Ultra Gaming
+PRODUCTS.append("24G-P5-3987-RX")
+
+## 3090 FTW3 Ultra Hybrid Gaming
+## PRODUCTS.append("24G-P5-3988-RX")
+
 ## EVGA GeForce 210 DDR3
 #PRODUCTS.append("01G-P3-1313-RX")
 
