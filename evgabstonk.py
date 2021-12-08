@@ -6,6 +6,7 @@ from selenium import webdriver
 
 SOUNDURL = "https://www.myinstants.com/media/sounds/ill-take-your-entire-stock-jontron.mp3"
 WAITTIME = 30
+QUIT = 0
 
 PRODUCTS = []
 
@@ -39,8 +40,8 @@ PRODUCTS.append("24G-P5-3987-RX")
 ## 3090 FTW3 Ultra Hybrid Gaming
 ## PRODUCTS.append("24G-P5-3988-RX")
 
-## EVGA GeForce 210 DDR3
-#PRODUCTS.append("01G-P3-1313-RX")
+## EVGA Z20 RGB Optical Mechanical (Clicky Switch)
+#PRODUCTS.append("812-W1-20US-RX")
 
 
 while (1):
@@ -53,12 +54,17 @@ while (1):
             if (title):
                 print(PRODUCT + " found")
                 driver.get(SOUNDURL)
-                time.wait(WAITTIME)
+                time.sleep(5)
+                QUIT = 1
                 sys.exit()
 #                title.click()
+        except SystemExit:
+            print("sys.exit() worked as expected")
         except:
             print(PRODUCT + " not Found")
             pass
+    if (QUIT == 1):
+        sys.exit()
     RANDTIME = random.randrange(WAITTIME - 5, WAITTIME + 5)
     driver.close()
     print("Waiting " + str(RANDTIME) + " seconds")
