@@ -4,6 +4,7 @@ import sys
 import random
 from selenium import webdriver
 
+BSTONKURL = "https://www.evga.com/products/productlist.aspx?type=8"
 SOUNDURL = "https://www.myinstants.com/media/sounds/ill-take-your-entire-stock-jontron.mp3"
 WAITTIME = 30
 QUIT = 0
@@ -47,14 +48,13 @@ PRODUCTS.append("24G-P5-3987-RX")
 while (1):
     driver = webdriver.Firefox()
     driver.set_window_size(960, 480)
-    driver.get("https://www.evga.com/products/productlist.aspx?type=8")
+    driver.get(BSTONKURL)
     for PRODUCT in PRODUCTS:
         try:
             title=driver.find_element_by_css_selector("[title*='" + PRODUCT + "']")
             if (title):
                 print(PRODUCT + " found")
                 driver.get(SOUNDURL)
-                time.sleep(5)
                 QUIT = 1
                 sys.exit()
 #                title.click()
@@ -64,6 +64,8 @@ while (1):
             print(PRODUCT + " not Found")
             pass
     if (QUIT == 1):
+        driver2 = webdriver.Firefox()
+        driver2.get(BSTONKURL)
         sys.exit()
     RANDTIME = random.randrange(WAITTIME - 5, WAITTIME + 5)
     driver.close()
