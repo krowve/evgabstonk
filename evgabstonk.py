@@ -3,12 +3,15 @@ import time
 import sys
 import random
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from playsound import playsound
 
 BSTONKURL = "https://www.evga.com/products/productlist.aspx?type=8"
 SOUNDURL = "https://www.myinstants.com/media/sounds/ill-take-your-entire-stock-jontron.mp3"
 WAITTIME = 30
+WAITINTERVAL = 3
 QUIT = 0
-
+HEADLESS = 1
 PRODUCTS = []
 
 ## 3060 Ti XC Gaming
@@ -46,7 +49,10 @@ PRODUCTS.append("24G-P5-3987-RX")
 
 
 while (1):
-    driver = webdriver.Firefox()
+    options = Options()
+    if (HEADLESS == 1):
+        options.headless = True
+    driver = webdriver.Firefox(options=options)
     driver.set_window_size(960, 480)
     driver.get(BSTONKURL)
     for PRODUCT in PRODUCTS:
@@ -54,7 +60,7 @@ while (1):
             title=driver.find_element_by_css_selector("[title*='" + PRODUCT + "']")
             if (title):
                 print(PRODUCT + " found")
-                driver.get(SOUNDURL)
+                playsound(SOUNDURL)
                 QUIT = 1
                 sys.exit()
 #                title.click()
@@ -67,7 +73,7 @@ while (1):
         driver2 = webdriver.Firefox()
         driver2.get(BSTONKURL)
         sys.exit()
-    RANDTIME = random.randrange(WAITTIME - 5, WAITTIME + 5)
+    RANDTIME = random.randrange(WAITTIME - WAITINTERVAL, WAITTIME + WAITINTERVAL)
     driver.close()
     print("Waiting " + str(RANDTIME) + " seconds")
     time.sleep(RANDTIME)
