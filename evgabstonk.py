@@ -6,6 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from playsound import playsound
 
+EVGACARTURL = "https://www.evga.com/Products/shoppingcart.aspx"
 BSTONKURL = "https://www.evga.com/products/productlist.aspx?type=8"
 SOUNDURL = "https://www.myinstants.com/media/sounds/ill-take-your-entire-stock-jontron.mp3"
 WAITTIME = 30

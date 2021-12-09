@@ -7,7 +7,7 @@ from selenium.webdriver.firefox.options import Options
 from playsound import playsound
 
 EVGACARTURL = "https://www.evga.com/Products/shoppingcart.aspx"
-GT710URL = "https://www.evga.com/products/productlist.aspx?type=0&family=GeForce+700+Series+Family&chipset=GT+710"
+GT210URL = "https://www.evga.com/products/ProductList.aspx?type=0&family=GeForce+200+Series+Family"
 SOUNDURL = "https://www.myinstants.com/media/sounds/ill-take-your-entire-stock-jontron.mp3"
 WAITTIME = 60
 WAITINTERVAL = 10
@@ -15,15 +15,8 @@ QUIT = 0
 HEADLESS = 1
 PRODUCTS = []
 
-## GT710 1GB
-PRODUCTS.append("01G-P3-2711-KR")
-
-## GT710 2GB Single Slot, Low Profile
-PRODUCTS.append("01G-P3-2713-KR")
-
-## GT710 2GB Single Slot, Dual DVI
-PRODUCTS.append("01G-P3-2717-KR")
-
+## EVGA GeForce 210 DDR3
+PRODUCTS.append("01G-P3-1313-KR")
 
 
 while (1):
@@ -32,7 +25,7 @@ while (1):
         options.headless = True
     driver = webdriver.Firefox(options=options)
     driver.set_window_size(960, 480)
-    driver.get(GT710URL)
+    driver.get(GT210URL)
     for PRODUCT in PRODUCTS:
         try:
             title=driver.find_element_by_css_selector("[title*='Add " + PRODUCT + " to cart']")
@@ -49,7 +42,7 @@ while (1):
             pass
     if (QUIT == 1):
         driver2 = webdriver.Firefox()
-        driver2.get(GT710URL)
+        driver2.get(GT210URL)
         sys.exit()
     RANDTIME = random.randrange(WAITTIME - WAITINTERVAL, WAITTIME + WAITINTERVAL)
     driver.close()
