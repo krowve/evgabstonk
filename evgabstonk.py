@@ -10,7 +10,6 @@ EVGACARTURL = "https://www.evga.com/Products/shoppingcart.aspx"
 BSTONKURL = "https://www.evga.com/products/productlist.aspx?type=8"
 SOUNDURL = "https://www.myinstants.com/media/sounds/ill-take-your-entire-stock-jontron.mp3"
 WAITTIME = 30
-WAITINTERVAL = 3
 QUIT = 0
 HEADLESS = 1
 PRODUCTS = []
@@ -74,7 +73,7 @@ while (1):
         driver2 = webdriver.Firefox()
         driver2.get(BSTONKURL)
         sys.exit()
-    RANDTIME = random.randrange(WAITTIME - WAITINTERVAL, WAITTIME + WAITINTERVAL)
     driver.close()
-    print("Waiting " + str(RANDTIME) + " seconds")
-    time.sleep(RANDTIME)
+    print("Waiting " + str(WAITTIME) + " seconds")
+    time.sleep(WAITTIME)
+
