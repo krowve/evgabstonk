@@ -12,7 +12,7 @@ GT710URL = "https://www.evga.com/products/productlist.aspx?type=0&family=GeForce
 GT1030URL = "https://www.evga.com/products/productlist.aspx?type=0&family=GeForce+10+Series+Family&chipset=GT+1030"
 SOUNDURL = "https://www.myinstants.com/media/sounds/ill-take-your-entire-stock-jontron.mp3"
 WAITTIME = 60
-WAITINTERVAL = 10
+WAITINTERVAL = 1 
 QUIT = 0
 HEADLESS = 1
 PRODUCTS = []
