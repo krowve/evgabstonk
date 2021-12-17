@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         evgacheckouthelper
+// @name         evgacheckouthelpercc
 // @namespace    http://tampermonkey.net/
-// @version      2021211001
+// @version      2021121701
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.evga.com/*
@@ -22,19 +22,13 @@
             }
         }
         if (document.title.includes("EVGA - Checkout - Billing Options")) {
-            if (!(document.getElementById("chkPaypalNotice")).checked) {
-                document.getElementById("chkPaypalNotice").click()
-
-            }
-            if (!(document.querySelector("[value=Paypal]")).checked) {
-                document.querySelector("[value=Paypal]").click()
+            if (!(document.querySelector("[value=rdoCreditCard]")).checked) {
+                document.querySelector("[value=rdoCreditCard]").click()
             }
 
         }
         if (document.title.includes("Shopping")) {
             console.log("Shopping")
-            console.log(localStorage.getItem("counter"))
-
             if (!(document.querySelector("[name=cbAgree]")).checked) {
                 document.querySelector("[name=cbAgree]").click()
             }

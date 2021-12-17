@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         evgacheckouthelper
+// @name         evgacheckouthelperpp
 // @namespace    http://tampermonkey.net/
-// @version      2021211001
+// @version      2021121701
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.evga.com/*
@@ -33,8 +33,6 @@
         }
         if (document.title.includes("Shopping")) {
             console.log("Shopping")
-            console.log(localStorage.getItem("counter"))
-
             if (!(document.querySelector("[name=cbAgree]")).checked) {
                 document.querySelector("[name=cbAgree]").click()
             }
