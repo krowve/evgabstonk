@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         evgabstonkATC
 // @namespace    http://tampermonkey.net/
-// @version      2021211001
+// @version      2021122101
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.evga.com/*
@@ -10,17 +10,11 @@
 // @grant        none
 // ==/UserScript==
 
-
-
-
-
 (function() {
     'use strict';
 
-    // Will cart the first card it sees, change order based on your preference.
-
+// Will cart the first card it sees, change order based on your preference.
 var PRODUCTS = new Array()
-
 // 3060 Ti XC Gaming
 PRODUCTS.push("08G-P5-3663-RX")
 // 3060 Ti FTW3 Gaming
@@ -43,16 +37,35 @@ PRODUCTS.push("10G-P5-3885-RX")
 PRODUCTS.push("10G-P5-3895-RX")
 // 3080 FTW3 Ultra Gaming
 PRODUCTS.push("10G-P5-3897-RX")
+// 3080 XC3 Ultra Gaming
 PRODUCTS.push("10G-P5-3885-RX")
 // 3080 FTW3 Gaming
 PRODUCTS.push("10G-P5-3895-RX")
 // 3080 FTW3 Ultra Gaming
 PRODUCTS.push("10G-P5-3897-RX")
+// 3060 XC Black Gaming
+PRODUCTS.push("12G-P5-3655-RX")
+// 3060 XC Gaming
+PRODUCTS.push("12G-P5-3657-RX")
 // 3090 FTW3 Gaming
 PRODUCTS.push("24G-P5-3985-RX")
 // 3090 FTW3 Ultra Gaming
 PRODUCTS.push("24G-P5-3987-RX")
+    
+// 3060Ti XC Gaming LHR
+PRODUCTS.push("08G-P5-3663-RL")    
 
+// 3060Ti FTW Ultra Gaming LHR
+PRODUCTS.push("08G-P5-3667-RL")
+
+// 3070 XC3 Ultra Gaming LHR
+PRODUCTS.push("08G-P5-3755-RL")    
+
+// 3080 XC3 Black Gaming LHR
+PRODUCTS.push("10G-P5-3881-RL")    
+
+// 3080 XC3 Ultra Gaming LHR
+PRODUCTS.push("10G-P5-3885-RL")    
 // 3090 FTW3 Ultra Hybrid Gaming
 // PRODUCTS.push("24G-P5-3988-RX")
 
