@@ -9,33 +9,49 @@ from playsound import playsound
 EVGACARTURL = "https://www.evga.com/Products/shoppingcart.aspx"
 BSTONKURL = "https://www.evga.com/products/productlist.aspx?type=8"
 SOUNDURL = "https://www.myinstants.com/media/sounds/ill-take-your-entire-stock-jontron.mp3"
-WAITTIME = 60
+WAITTIME = 0
 QUIT = 0
 HEADLESS = 1
 PRODUCTS = []
 
+## 3060 XC Black Gaming
+PRODUCTS.append("12G-P5-3665-RX")
+## 3060 XC Gaming
+PRODUCTS.append("12G-P5-3657-RX")
+## 3060 Ti XC Gaming LHR
+PRODUCTS.append("08G-P5-3663-RL")
 ## 3060 Ti XC Gaming
 PRODUCTS.append("08G-P5-3663-RX")
 ## 3060 Ti FTW3 Gaming
 PRODUCTS.append("08G-P5-3665-RX")
 ## 3060 Ti FTW3 Ultra Gaming
 PRODUCTS.append("08G-P5-3667-RX")
+## 3060 Ti FTW3 Ultra Gaming LHR
+PRODUCTS.append("08G-P5-3667-RL")
 ## 3070 XC3 Black Gaming
 PRODUCTS.append("08G-P5-3751-RX")
 ## 3070 XC3 Ultra Gaming
 PRODUCTS.append("08G-P5-3755-RX")
+## 3070 XC3 Ultra Gaming LHR
+PRODUCTS.append("08G-P5-3755-RL")
 ## 3070 FTW3 Ultra Gaming
 PRODUCTS.append("08G-P5-3767-RX")
 ## 3080 XC3 Black Gaming
 PRODUCTS.append("10G-P5-3881-RX")
+## 3080 XC3 Black Gaming LHR
+PRODUCTS.append("10G-P5-3881-RL")
 ## 3080 XC3 Gaming
 PRODUCTS.append("10G-P5-3883-RX")
 ## 3080 XC3 Ultra Gaming
 PRODUCTS.append("10G-P5-3885-RX")
+## 3080 XC3 Ultra Gaming LHR
+PRODUCTS.append("10G-P5-3885-RL")
 ## 3080 FTW3 Gaming
 PRODUCTS.append("10G-P5-3895-RX")
 ## 3080 FTW3 Ultra Gaming
 PRODUCTS.append("10G-P5-3897-RX")
+## 3080 FTW3 Ultra Gaming LHR
+PRODUCTS.append("10G-P5-3897-RL")
 ## 3090 FTW3 Gaming
 PRODUCTS.append("24G-P5-3985-RX")
 ## 3090 FTW3 Ultra Gaming
