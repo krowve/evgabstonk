@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         evgabstonkATC
 // @namespace    http://tampermonkey.net/
-// @version      2021122101
+// @version      2021122102
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.evga.com/*
@@ -13,7 +13,8 @@
 (function() {
     'use strict';
 
-// Will cart the first card it sees, change order based on your preference.
+// Will cart the first card it sees that matches.  If you don't want a card
+// take it out of the list.
 var PRODUCTS = new Array()
 // 3060 Ti XC Gaming
 PRODUCTS.push("08G-P5-3663-RX")
