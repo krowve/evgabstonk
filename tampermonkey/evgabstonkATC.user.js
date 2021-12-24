@@ -4,8 +4,10 @@
 // @version      2021122102
 // @description  try to take over the world!
 // @author       You
-// @match        https://www.evga.com/*
-// @match        https://secure.evga.com/*
+// @downloadURL  https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgabstonkATC.user.js
+// @updateURL    https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgabstonkATC.user.js
+// @match        https://www.evga.com/Products/*
+// @match        https://www.evga.com/products/*
 // @icon         https://www.google.com/s2/favicons?domain=evga.com
 // @grant        none
 // ==/UserScript==
@@ -13,8 +15,10 @@
 (function() {
     'use strict';
 
-// Will cart the first card it sees that matches.  If you don't want a card
-// take it out of the list.
+// Will try to cart in listed order.
+// Will only try to cart one card per page load.
+// Sort by your preference.  
+
 var PRODUCTS = new Array()
 // 3060 Ti XC Gaming
 PRODUCTS.push("08G-P5-3663-RX")
