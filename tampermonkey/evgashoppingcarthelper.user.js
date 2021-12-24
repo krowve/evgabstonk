@@ -6,8 +6,8 @@
 // @author       You
 // @downloadURL  https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgashoppingcarthelper.user.js
 // @updateURL    https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgashoppingcarthelper.user.js
-// @match        https://www.evga.com/products/*
-// @match        https://www.evga.com/Products/*
+// @match        https://www.evga.com/products/shoppingcart.aspx
+// @match        https://www.evga.com/Products/shoppingcart.aspx
 // @icon         https://www.google.com/s2/favicons?domain=evga.com
 // @grant        none
 // ==/UserScript==
