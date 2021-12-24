@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         evgabstonkATC
 // @namespace    http://tampermonkey.net/
-// @version      2021122102
+// @version      2021122401
 // @description  try to take over the world!
 // @author       You
 // @downloadURL  https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgabstonkATC.user.js
