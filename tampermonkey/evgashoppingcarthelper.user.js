@@ -14,9 +14,9 @@
 
 (function() {
 
-        if (document.title == "EVGA - Checkout") {
-            document.getElementsByClassName('btn-checkout')[0].click()
-            console.log("Checkout")
-        }
-
+    if (document.title == "EVGA - Checkout") {
+	console.log("Checkout")
+        //document.getElementsByClassName('btn-checkout')[0].click()
+	document.location = "https://secure.evga.com/Cart/Checkout_Shipping.aspx"
+    }
 })();
