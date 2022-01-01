@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         evgashoppingcarthelper
 // @namespace    http://tampermonkey.net/
-// @version      2021122401
+// @version      2022010101
 // @description  try to take over the world!
 // @author       You
 // @downloadURL  https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgashoppingcarthelper.user.js
@@ -14,9 +14,13 @@
 
 (function() {
 
-    if (document.title == "EVGA - Checkout") {
-	console.log("Checkout")
-        //document.getElementsByClassName('btn-checkout')[0].click()
-	document.location = "https://secure.evga.com/Cart/Checkout_Shipping.aspx"
-    }
+        if (document.title == "EVGA - Checkout") {
+            if (!(document.getElementsByClassName('message-important')[0].innerText == "Your Cart is Empty")) {
+                console.log("Checkout")
+                //document.getElementsByClassName('btn-checkout')[0].click()
+                document.location = "https://secure.evga.com/Cart/Checkout_Shipping.aspx"
+            }
+
+        }
+
 })();
