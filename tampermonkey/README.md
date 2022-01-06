@@ -6,4 +6,15 @@ evgacheckouthelperpp.user.js = Clicks all the boxes for you on EVGA checkout and
 
 evgacheckouthelpercc.user.js = Clicks all the boxes for you on EVGA checkout and selects Credit Card checkout.
 
+Good luck!  If you want to donate or contribute to my efforts check
+out the following options:
+
+If you want to use my Associate Code: W3IYYPWM3TA0TN2
+
+If you want to send me some BTC: 3B5mmDDTLP6wGNGngMe82zT1YswrPtbtjv
+
+If you want to send me some ETH: 0x8F947330b4d270d13F08A821f9173d69ebeA430E
+
+If you want to send me some other form of crypto let me know and I'll
+setup a wallet for that as well.
 
