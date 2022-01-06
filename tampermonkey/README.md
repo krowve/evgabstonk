@@ -1,3 +1,5 @@
+# Scripts
+
 evgabstonkATC.user.js = Tries to cart from b stock page in preference order.
 
 evgashoppingcarthelper.user.js = Advances past shopping cart.
@@ -8,6 +10,9 @@ evgacheckouthelpercc.user.js = Clicks all the boxes for you on EVGA checkout and
 
 Good luck!  If you want to donate or contribute to my efforts check
 out the following options:
+
+
+# Donating
 
 If you want to use my Associate Code: [VVEWEK3CAJ39C5D](https://www.evga.com/associates/default.aspx?associatecode=VVEWEK3CAJ39C5D).
 
