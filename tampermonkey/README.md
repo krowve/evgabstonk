@@ -9,9 +9,7 @@ evgacheckouthelpercc.user.js = Clicks all the boxes for you on EVGA checkout and
 Good luck!  If you want to donate or contribute to my efforts check
 out the following options:
 
-If you want to use my Associate Code: VVEWEK3CAJ39C5D 
-
-Clickable link for my Associates Code: [VVEWEK3CAJ39C5D](https://www.evga.com/associates/default.aspx?associatecode=VVEWEK3CAJ39C5D).
+If you want to use my Associate Code: [VVEWEK3CAJ39C5D](https://www.evga.com/associates/default.aspx?associatecode=VVEWEK3CAJ39C5D).
 
 If you want to send me some BTC: 3B5mmDDTLP6wGNGngMe82zT1YswrPtbtjv
 
