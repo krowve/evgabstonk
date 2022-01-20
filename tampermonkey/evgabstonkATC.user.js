@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         evgabstonkATC
 // @namespace    http://tampermonkey.net/
-// @version      2022010301
+// @version      2022012001
 // @description  Cart from the EVGA B Stock Page
 // @author       Krowve
 // @downloadURL  https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgabstonkATC.user.js
@@ -59,7 +59,10 @@ PRODUCTS.push("08G-P5-3755-RL")
 // 3080 XC3 Black Gaming LHR
 PRODUCTS.push("10G-P5-3881-RL")    
 // 3080 XC3 Ultra Gaming LHR
-PRODUCTS.push("10G-P5-3885-RL")    
+PRODUCTS.push("10G-P5-3885-RL")
+// 3070 Ti FTW3 Ultra Gaming
+PRODUCTS.push("08G-P5-3797-RX")
+    
 // 3090 FTW3 Ultra Hybrid Gaming
 // PRODUCTS.push("24G-P5-3988-RX")
 // 2060 KO Gaming
