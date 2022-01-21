@@ -25,7 +25,7 @@ var PRODUCTS = new Array()
 PRODUCTS.push("06G-P4-1266-RX")
 // EVGA GeForce GTX 1660 Ti SC Ultra Black Gaming
 // $290 - 28MH - 80w
-PRODUCTS.push("06G-P4-1655-RX")
+PRODUCTS.push("06G-P4-1665-RX")
 // EVGA GeForce GTX 1660 Ti XC Ultra Black Gaming
 // $280 - 28MH - 80w
 PRODUCTS.push("06G-P4-1265-RX")
