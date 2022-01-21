@@ -17,82 +17,119 @@
 
 // Will try to cart in listed order.
 // Will only try to cart one card per page load.
-// Sort by your preference.  
+// Sort by your preference.
 
 var PRODUCTS = new Array()
 // 3080 XC3 Black Gaming
+// $800 - 92MH - 230w
 PRODUCTS.push("10G-P5-3881-RX")
 // 3080 XC3 Gaming
+// $850 - 92MH - 230w
 PRODUCTS.push("10G-P5-3883-RX")
 // 3080 XC3 Ultra Gaming
+// $870 - 92MH - 230w
 PRODUCTS.push("10G-P5-3885-RX")
 // 3080 FTW3 Gaming
+// $870 - 92MH - 230w
 PRODUCTS.push("10G-P5-3895-RX")
 // 3080 FTW3 Ultra Gaming
-PRODUCTS.push("10G-P5-3897-RX")    
+// $910 - 92MH - 230w
+PRODUCTS.push("10G-P5-3897-RX")
 // 3060 Ti XC Gaming
+// $470 - 59MH - 130w
 PRODUCTS.push("08G-P5-3663-RX")
 // 3060 Ti FTW3 Gaming
+// $500 - 59MH - 130w
 PRODUCTS.push("08G-P5-3665-RX")
 // 3060 Ti FTW3 Ultra Gaming
+// $530 - 59MH - 130w
 PRODUCTS.push("08G-P5-3667-RX")
 // 3070 XC3 Black Gaming
+// $600 - 59MH - 130w
 PRODUCTS.push("08G-P5-3751-RX")
 // 3070 XC3 Ultra Gaming
+// $650 - 59MH - 130w
 PRODUCTS.push("08G-P5-3755-RX")
 // 3070 FTW3 Ultra Gaming
+// $710 - 59MH - 130w
 PRODUCTS.push("08G-P5-3767-RX")
 // 3080 XC3 Black Gaming
+// $800 - 92MH - 230w
 PRODUCTS.push("10G-P5-3881-RX")
 // 3080 XC3 Gaming
+// $850 - 92MH - 230w
 PRODUCTS.push("10G-P5-3883-RX")
 // 3080 XC3 Ultra Gaming
+// $870 - 92MH - 230w
 PRODUCTS.push("10G-P5-3885-RX")
 // 3080 FTW3 Gaming
+// $870 - 92MH - 230w
 PRODUCTS.push("10G-P5-3895-RX")
 // 3080 FTW3 Ultra Gaming
+// $910 - 92MH - 230w
 PRODUCTS.push("10G-P5-3897-RX")
 // 3060 XC Black Gaming
+// $390 - 34MH - 120w
 PRODUCTS.push("12G-P5-3655-RX")
 // 3060 XC Gaming
+// $420 - 34MH - 120w
 PRODUCTS.push("12G-P5-3657-RX")
 // 3090 XC3 Gaming
-PRODUCTS.push("24G-P5-3973-RX")    
+// $1650 - 114MH - 320w
+PRODUCTS.push("24G-P5-3973-RX")
 // 3090 FTW3 Gaming
+// $1830 - 114MH - 320w
 PRODUCTS.push("24G-P5-3985-RX")
 // 3090 XC3 Ultra Gaming
-PRODUCTS.push("24G-P5-3975-RX")    
+// $1730 - 114MH - 320w
+PRODUCTS.push("24G-P5-3975-RX")
 // 3090 FTW3 Ultra Gaming
+// $1900 - 114MH - 320w
 PRODUCTS.push("24G-P5-3987-RX")
 // 3060Ti XC Gaming LHR
-PRODUCTS.push("08G-P5-3663-RL")    
+// $470 - 42MH - 130w
+PRODUCTS.push("08G-P5-3663-RL")
 // 3060Ti FTW Ultra Gaming LHR
+// $530 - 42MH - 130w
 PRODUCTS.push("08G-P5-3667-RL")
 // 3070 Ti FTW3 Ultra Gaming
+// $820 - 55MH - 190w
 PRODUCTS.push("08G-P5-3797-RX")
 // 3090 XC3 Gaming
-PRODUCTS.push("24G-P5-3973-RX")    
+// $1650 - 114MH - 320w
+PRODUCTS.push("24G-P5-3973-RX")
 // 3090 FTW3 Gaming
+// $1830 - 114MH - 320w
 PRODUCTS.push("24G-P5-3985-RX")
 // 3090 XC3 Ultra Gaming
-PRODUCTS.push("24G-P5-3975-RX")    
+// $1730 - 114MH - 320w
+PRODUCTS.push("24G-P5-3975-RX")
 // 3090 FTW3 Ultra Gaming
+// $1900 - 114MH - 320w
 PRODUCTS.push("24G-P5-3987-RX")
 // 3080 XC3 Black Gaming LHR
-PRODUCTS.push("10G-P5-3881-RL")    
+// $800 - 71MH - 240w
+PRODUCTS.push("10G-P5-3881-RL")
 // 3080 XC3 Ultra Gaming LHR
+// $870 - 71MH - 240w
 PRODUCTS.push("10G-P5-3885-RL")
 // 3080 Ti XC3 Gaming
-PRODUCTS.push("12G-P5-3953-RX")    
+// $1190 - 85MH - 290w
+PRODUCTS.push("12G-P5-3953-RX")
 // 3080 Ti XC3 Ultra Gaming
-PRODUCTS.push("12G-P5-3955-RX")    
+// $1310 - 85MH - 290w
+PRODUCTS.push("12G-P5-3955-RX")
 // 3080 Ti XC3 Ultra Hybrid Gaming
+// $1410 - 85MH - 290w
 PRODUCTS.push("12G-P5-3958-RX")
 // 3080 Ti FTW3 Ultra Gaming
+// $1410 - 85MH - 290w
 PRODUCTS.push("12G-P5-3967-RX")
 // 3070 XC3 Ultra Gaming LHR
-PRODUCTS.push("08G-P5-3755-RL")    
+// $650 - 43MH - 130w
+PRODUCTS.push("08G-P5-3755-RL")
 // 3090 FTW3 Ultra Hybrid Gaming
+// $1900 - 114MH - 320w
 PRODUCTS.push("24G-P5-3988-RX")
 
 // EVGA GeForce 210 DDR3
