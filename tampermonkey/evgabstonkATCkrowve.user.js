@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         evgabstonkATCkrowve
 // @namespace    http://tampermonkey.net/
-// @version      2022012401
+// @version      2022012501
 // @description  Cart from the EVGA B Stock Page. Krowve's preferred list (FHR)
 // @author       Krowve
 // @downloadURL  https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgabstonkATCkrowve.user.js
@@ -75,7 +75,14 @@ PRODUCTS.push("12G-P5-3655-RX")
 // 3060 XC Gaming
 // $420 - 34MH - 120w
 PRODUCTS.push("12G-P5-3657-RX")
+// 3060Ti XC Gaming LHR
+// $470 - 42MH - 130w
+PRODUCTS.push("08G-P5-3663-RL")
+// 3060Ti FTW Ultra Gaming LHR
+// $530 - 42MH - 130w
+PRODUCTS.push("08G-P5-3667-RL")
 
+    
 // 20 Series
 // 2060 KO Gaming
 // $280 - 30MH - 120w
