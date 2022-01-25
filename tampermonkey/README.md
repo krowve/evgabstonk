@@ -2,14 +2,17 @@
 
 evgabstonkATC.user.js = Tries to cart from b stock page in preference order.
 
-evgabstonkATC.user30only.js = Tries to cart from b stock page in
+evgabstonkATC30only.user.js = Tries to cart from b stock page in
 preference order.  30 series cards only.
 
-evgabstonkATC.user20only.js = Tries to cart from b stock page in
+evgabstonkATC20only.user.js = Tries to cart from b stock page in
 preference order.  20 series cards only.
 
-evgabstonkATC.user16only.js = Tries to cart from b stock page in
+evgabstonkATC16only.user.js = Tries to cart from b stock page in
 preference order.  16 series cards only.
+
+evgabstonkATCkrowve.user.js = Tries to cart from b stock page in
+preference order.  Krowve's preferred cards (FHR)
 
 evgashoppingcarthelper.user.js = Advances past shopping cart.
 
