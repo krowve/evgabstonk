@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         evgabstonkATC
+// @name         evgabstonkATCkrowve
 // @namespace    http://tampermonkey.net/
-// @version      2022012002
+// @version      2022012401
 // @description  Cart from the EVGA B Stock Page. Krowve's preferred list (FHR)
 // @author       Krowve
 // @downloadURL  https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgabstonkATCkrowve.user.js
