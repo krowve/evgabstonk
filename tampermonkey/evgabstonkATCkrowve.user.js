@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         evgabstonkATCkrowve
 // @namespace    http://tampermonkey.net/
-// @version      2022012501
-// @description  Cart from the EVGA B Stock Page. Krowve's preferred list (FHR)
+// @version      2022020201
+// @description  Cart from the EVGA B Stock Page. Krowve's preferred list (Mostly FHR)
 // @author       Krowve
 // @downloadURL  https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgabstonkATCkrowve.user.js
 // @updateURL    https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgabstonkATCkrowve.user.js
@@ -206,6 +206,7 @@ PRODUCTS.push("08G-P4-3175-RX")
 
              if (document.querySelector("[title*='" + PRODUCT + "']")) {
                  document.querySelector("[title*='" + PRODUCT + "']").click()
+		 break
              }
          }
      }

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         evgabstonkATC16only
 // @namespace    http://tampermonkey.net/
-// @version      2022012002
+// @version      2022020201
 // @description  Cart from the EVGA B Stock Page
 // @author       Krowve
 // @downloadURL  https://github.com/krowve/evgabstonk/raw/main/tampermonkey/evgabstonkATC16only.user.js
@@ -82,6 +82,7 @@ PRODUCTS.push("06G-P4-1160-RX")
 
              if (document.querySelector("[title*='" + PRODUCT + "']")) {
                  document.querySelector("[title*='" + PRODUCT + "']").click()
+		 break
              }
          }
      }
