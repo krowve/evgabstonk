@@ -37,6 +37,9 @@ checkout and selects PayPal checkout.
 evgacheckouthelpercc.user.js = Clicks all the boxes for you on EVGA
 checkout and selects Credit Card checkout.
 
+evgaerrorpage.user.js = If the error page loads, waits 5 seconds and 
+then tries to visit B stock page.  
+
 evgacheckoutfetcher.user.js = Uses a fetch command to POST your CC
 info when the checkout shipping page is loaded.  After POSTing the
 place order page is loaded.  The fetch command is going to be specific
