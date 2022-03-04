@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         evgacheckout2payment.user/js
+// @name         evgacheckout2payment.user.js
 // @namespace    http://tampermonkey.net/
-// @version      2021121101
+// @version      2022030401
 // @description  try to take over the world!
 // @author       You
 // @match        https://secure.evga.com/*
