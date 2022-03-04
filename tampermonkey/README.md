@@ -42,7 +42,11 @@ then tries to visit B stock page.
 
 evgacheckout2payment.user.js = Clicks address and shipping method.
 
-evgaplaceorderhelper.user.js = Clicks checkbox on place order page.
+evgapaywithPP.user.js = Selects PP as payment method.  Also handles
+checkbox on place order screen.
+
+evgapaywithCC.user.js = Selects CC as payment method.  Also handles
+checkbox on place order screen.
 
 ## "Priming" a cart
 
