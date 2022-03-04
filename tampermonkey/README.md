@@ -40,6 +40,24 @@ checkout and selects Credit Card checkout.
 evgaerrorpage.user.js = If the error page loads, waits 5 seconds and 
 then tries to visit B stock page.  
 
+evgacheckout2payment.user.js = Clicks address and shipping method.
+
+evgaplaceorderhelper.user.js = Clicks checkbox on place order page.
+
+## "Priming" a cart
+
+1. Put any item in your cart
+
+2. Navigate to checkout, make sure you pick UPS ground.  Enter in CC
+info, click submit, but stop at place order page
+
+3. Remove item from cart.
+
+4. Your cart is now "primed" for 30 minutes.  If you cart you can go
+straight to the place order page without visiting the checkout
+shipping page.
+
+
 evgacheckoutfetcher.user.js = Uses a fetch command to POST your CC
 info when the checkout shipping page is loaded.  After POSTing the
 place order page is loaded.  The fetch command is going to be specific
@@ -70,15 +88,3 @@ the tampermonkey script will fire and POST your CC info. It will then
 open a new window to the place order page.  If the POST command was
 succesful the place order page will load.
 
-# "Priming" a cart
-
-1. Put any item in your cart
-
-2. Navigate to checkout, make sure you pick UPS ground.  Enter in CC
-info, click submit, but stop at place order page
-
-3. Remove item from cart.
-
-4. Your cart is now "primed" for 30 minutes.  If you cart you can go
-straight to the place order page without visiting the checkout
-shipping page.
