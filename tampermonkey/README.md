@@ -31,12 +31,6 @@ preference order.  Krowve's preferred cards (FHR)
 
 evgashoppingcarthelper.user.js = Advances past shopping cart.
 
-evgacheckouthelperpp.user.js = Clicks all the boxes for you on EVGA
-checkout and selects PayPal checkout.
-
-evgacheckouthelpercc.user.js = Clicks all the boxes for you on EVGA
-checkout and selects Credit Card checkout.
-
 evgaerrorpage.user.js = If the error page loads, waits 5 seconds and 
 then tries to visit B stock page.  
 
