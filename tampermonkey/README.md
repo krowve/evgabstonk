@@ -86,3 +86,4 @@ the tampermonkey script will fire and POST your CC info. It will then
 open a new window to the place order page.  If the POST command was
 succesful the place order page will load.
 
+8. This may not work anymore as of March 2022.
